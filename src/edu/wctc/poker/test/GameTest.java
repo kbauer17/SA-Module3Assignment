@@ -19,7 +19,7 @@ public class GameTest {
                             new Card(FOUR,DIAMONDS, 4),
                             new Card(TWO,HEARTS, 2),
                             new Card(FIVE,DIAMONDS,5),
-                            new Card(EIGHT,HEARTS,8)};
+                            new Card(SIX,HEARTS,6)};
     }
 
     @Test
@@ -40,5 +40,10 @@ public class GameTest {
     @Test
     public void flushTest(){
         assertTrue("Hand is not a flush",Game.flush(hand));
+    }
+
+    @Test
+    public void straightTest(){
+        assertTrue("Hand is not a straight",Game.straight(hand));
     }
 }

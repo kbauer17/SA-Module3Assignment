@@ -1,7 +1,7 @@
 package edu.wctc.poker;
 
 /**
- * Class creating the Card objects consisting of
+ * Class creating the Card objects, which consist of
  * the face (in ENUM class FACE, ie TWO, THREE,etc.),
  * the suit (in ENUM class SUIT, ie CLUBS, etc.),
  * and value (integer corresponding to the face value of the card,
